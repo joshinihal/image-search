@@ -1,0 +1,16 @@
+.header-container{
+    position: sticky;
+    top: 0;
+}
+
+.header-div{
+    display: flex;
+    align-items: center;
+    background-color: #2d878f;
+    color: white;
+    justify-content: space-between;
+}
+
+.logo {
+    margin: auto 3rem;
+}

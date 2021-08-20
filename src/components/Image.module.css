@@ -1,0 +1,27 @@
+.image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container-normal {
+    width: 25vw;
+    height: 25vw;
+}
+
+.image-container-zoomed {
+    width: 40vw;
+    height: 40vw;
+}
+
+.image{
+    max-width: 90%;
+    max-height: 90%;
+    border: 5px solid #737070;
+    border-radius: 5px;
+}
+
+.image:hover{
+    border: 5px solid black;
+    box-shadow: 4px 2px 2px 1px rgba(0, 0, 0, 0.3);
+}

@@ -1,0 +1,21 @@
+.images-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2vw auto;
+}
+
+
+.retry-btn {
+    background-color: #2d878f;
+    color: white;
+    border: none;
+    padding: 7px 25px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin: 0 0.3rem;
+}
+
+.center-align {
+    text-align: center;
+}
