@@ -11,6 +11,16 @@
     justify-content: space-between;
 }
 
-.logo {
+.logo-div {
     margin: auto 3rem;
+}
+
+.logo {
+    font-size: 2vw;
+}
+
+@media (max-width: 525px) {
+    .logo-div {
+        margin: auto 1rem;
+    }
 }

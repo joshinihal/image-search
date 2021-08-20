@@ -21,6 +21,20 @@
     border-radius: 5px;
 }
 
+@media (max-width: 525px) {
+    .image{
+        max-width: 85%;
+        max-height: 85%;
+        border: 2px solid #737070;
+        border-radius: 5px;
+    }
+
+    .image-container-zoomed {
+        width: 70vw;
+        height: 70vw;
+    }
+}
+
 .image:hover{
     border: 5px solid black;
     box-shadow: 4px 2px 2px 1px rgba(0, 0, 0, 0.3);

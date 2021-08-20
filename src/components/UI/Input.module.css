@@ -1,16 +1,28 @@
 .input-container{
     display: flex;
-    width: 20rem;
+    /* width: 20rem; */
     justify-content: space-evenly;
-    margin: auto 1rem;
+    margin: auto 2rem;
 }
 
 .input-box {
-    width: 15rem;
+    width: 20vw;
     height: 1.5rem;
     border-radius: 5px;
 }
 
 .label {
     align-self: center;
+    margin: auto 0.5rem;
+}
+
+@media (max-width: 525px) {
+    .label {
+        font-size: 2vw;
+    }
+
+    .input-box {
+        height: 0.7rem;
+        display: flex;
+    }
 }

@@ -13,8 +13,8 @@ const Header = (props) => {
     <React.Fragment>
       <header className={classes["header-container"]}>
         <div className={classes["header-div"]}>
-          <div className={classes.logo}>
-            <h2>FLICKR SEARCH</h2>
+          <div className={classes["logo-div"]}>
+            <h2 className={classes["logo"]}>FLICKR SEARCH</h2>
           </div>
           <div>
            <Input onChangeHandler={handleChange} label='SEARCH' id='search'></Input>
